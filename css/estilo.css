@@ -1,0 +1,273 @@
+:root {
+  --violeta-oscuro: #604652;
+  --violeta: #735557;
+  --lila: #97866A;
+  --rosa: #D29F80;
+
+/*font*/
+ font-family: "Montserrat", sans-serif;
+
+/* Header general */
+header {
+  background-color:#735557 ;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #735557;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+}
+
+/* Marca del sitio */
+.navbar-brand {
+  font-family: "Irish Grover", system-ui;
+  font-size: 2em;
+  color: var(--violeta);
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+/* Links del menú */
+.nav-link {
+  color: #735557;
+  font-weight: bold;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #735557;
+  text-decoration: underline;
+}
+
+/* Link activo */
+.nav-link.active {
+  color: #735557;
+  text-decoration: underline;
+}
+
+/* Ícono hamburguesa */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2864,70,82, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.categoria-titulo {
+  font-family: "Irish Grover", system-ui;
+  color: var(--violeta);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.obra-card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.obra-card:hover {
+  transform: scale(1.02);
+}
+
+.pequeño-formato {
+  max-width: 250px;
+  margin: auto;
+  font-size: 0.9em;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 250px;
+}
+.presentacion {
+  background-color: #735557;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #d29f80;
+}
+
+.presentacion h1 {
+  font-family: "Irish Grover", system-ui;
+  font-size: 3em;
+  color: #d29f80;
+  margin-bottom: 20px;
+}
+
+.presentacion p {
+   font-family: "Irish Grover", system-ui;
+  font-size: 1.4em;
+  line-height: 1.6;
+  color: #d29f80;
+}
+
+.sobre-mi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40 px;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: "Irish Grover", system-ui;
+}
+
+.texto-bio{
+  flex: 1;
+  font-size: 1.5em;
+  color: #604652;
+}
+
+.foto-mia{
+   width: 250px;
+   height: auto;
+   border-radius: 10px;
+   box-shadow:0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:768px) {
+  .sobre-mi{
+    flex-direction: column;
+    text-align: center;
+  }
+  .foto-mia{
+    width: 70%;
+    max-width: 70%;
+  }
+}
+
+
+}
+
+ .h2 {
+   font-family: "Irish Grover", system-ui;
+   font-size: 50px;
+   color: #604652;
+ }
+.carousel-control-prev,
+.carousel-control-next {
+  display: flex !important;
+}
+
+
+#mi-arte-en-tu-casa {
+  background-color: var(--beige-suave);
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+#mi-arte-en-tu-casa img {
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+#mi-arte-en-tu-casa .carousel-inner {
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#mi-arte-en-tu-casa img {
+  object-fit: contain;
+  max-height: 500px;
+}
+
+.obra-card .card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  background-color: #f8f8f8; 
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.contacto-artista {
+  background-color: #D29F80;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.mensaje-contacto {
+  font-size: 1.3rem;
+  color: #d29f80; 
+  font-family: "Irish Grover", system-ui;
+  line-height: 1.6;
+}
+
+.formulario-contacto {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fdf6f0; 
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.formulario-contacto .form-label {
+  font-weight: 500;
+  color: #5a4e4d; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formulario-contacto .form-control {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn-enviar {
+  background-color: #c48b7c; 
+  color: white;
+  padding: 10px 30px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #a76f63; 
+}
+
+.mensaje-contacto {
+  display: block;
+  color: #444;
+  font-size: 1.1rem;
+}
+.footer{
+    background-color: #d29f80;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: "Irish Grover", system-ui;
+    color: #604652;
+    margin-top: 60px;
+    border-top: 1px solid #735557;
+}
+
+.footer a{
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #680d3a;
+  font-weight: bold;
+}
+
+.footer a: hover{
+  text-decoration: underline;
+}
+
+.footer h3 {
+  font-size: 1.8em;
+}
