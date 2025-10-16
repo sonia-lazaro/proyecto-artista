@@ -1,0 +1,40 @@
+@use "color-fuente" as *;
+
+.sobre-mi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40 px;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: "Irish Grover", system-ui;
+}
+
+.texto-bio{
+  flex: 1;
+  font-size: 1.5em;
+  color: $violeta-oscuro;
+}
+
+.foto-mia{
+   width: 250px;
+   height: auto;
+   border-radius: 10px;
+   box-shadow:0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:768px) {
+  .sobre-mi{
+    flex-direction: column;
+    text-align: center;
+  }
+  .foto-mia{
+    width: 70%;
+    max-width: 70%;
+  }
+}
+.h2 {
+   font-family: "Irish Grover", system-ui;
+   font-size: 50px;
+   color: $violeta-oscuro;}

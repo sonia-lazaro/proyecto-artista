@@ -1,0 +1,88 @@
+@use "color-fuente" as *;
+
+/* _header.scss*/
+
+header {
+  background-color: $violeta;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mi-navbar {
+  background-color: $violeta;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .navbar-brand {
+    font-family: $fuente-principal;
+    color: $rosa;
+  }
+
+  .nav-link {
+    color: $lila;
+
+    &:hover {
+      color: $rosa;
+    }
+  }
+}
+
+/* Links del menú */
+.nav-link {
+  color: $violeta;
+  font-weight: bold;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: $violeta;
+  text-decoration: underline;
+}
+
+/* Link activo */
+.nav-link.active {
+  color: $violeta;
+  text-decoration: underline;
+}
+
+/* Ícono hamburguesa */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2864,70,82, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/* 
+presentacion.scss*/
+
+.presentacion {
+  background-color: $violeta;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  padding: 20px;
+  font-family: $fuente-principal;
+  color: $rosa;
+
+  h1 {
+    font-family: "Irish Grover", system-ui;
+    font-size: 3em;
+    color: $rosa;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: "Irish Grover", system-ui;
+    font-size: 1.4em;
+    line-height: 1.6;
+    color: $rosa;
+  }
+}

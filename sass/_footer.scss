@@ -1,0 +1,24 @@
+@use "_color-fuente" as *;
+
+.footer{
+    background-color: $violeta-oscuro;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: "Irish Grover", system-ui;
+    color: $rosa;
+    margin-top: 60px;
+    border-top: 1px solid $lila;
+}
+
+.footer a{
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: $violeta-oscuro;
+  font-weight: bold;
+}
+
+
+.footer h3 {
+  font-size: 1.8em;
+}
