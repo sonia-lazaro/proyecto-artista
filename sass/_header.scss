@@ -3,6 +3,18 @@
 /* _header.scss*/
 
 header {
+  background: linear-gradient(to right, $violeta-oscuro, $rosa);
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+.header-gradiente {
+  background: linear-gradient(135deg, $violeta-oscuro, $rosa);
+  color: black;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+header {
   background-color: $violeta;
   position: sticky;
   top: 0;

@@ -1,10 +1,8 @@
-
-
-
- 
+@use "_color-fuente" as *;
 
 .contacto-artista {
-  background-color: $violeta;
+
+  background-color: $rosa;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.08);
 }
@@ -55,28 +53,4 @@
   color: #444;
   font-size: 1.1rem;
 }
-.footer{
-    background-color: $violeta;
-    padding: 40px 20px;
-    text-align: center;
-    font-family: "Irish Grover", system-ui;
-    color: #604652;
-    margin-top: 60px;
-    border-top: 1px solid #735557;
-}
 
-.footer a{
-  display: inline-block;
-  margin-top: 15px;
-  text-decoration: none;
-  color: $violeta-oscuro;
-  font-weight: bold;
-}
-
-.footer a: hover{
-  text-decoration: underline;
-}
-
-.footer h3 {
-  font-size: 1.8em;
-}
