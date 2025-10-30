@@ -84,14 +84,14 @@ presentacion.scss*/
 .presentacion h1 {
   font-family: "Irish Grover", system-ui;
   font-size: 3em;
-  color: #D29F80;
+  color: white;
   margin-bottom: 20px;
 }
 .presentacion p {
   font-family: "Irish Grover", system-ui;
   font-size: 1.4em;
   line-height: 1.6;
-  color: #D29F80;
+  color: white;
 }
 
 .sobre-mi {
