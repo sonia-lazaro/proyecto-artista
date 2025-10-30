@@ -12,6 +12,7 @@
   }
 }
 
+
 .obra-card {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -29,12 +30,7 @@
   transform: scale(1.05);
 }
 
-@media (max-width: 767px) {
-  .obra-card:active {
-    transform: scale(0.98);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  }
-}
+
 
 
 .pequeño-formato {
@@ -53,6 +49,18 @@
    font-size: 50px;
    color: #604652;
  }
+
+@media (max-width: 767px) {
+  .obra-card:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+
+
+
 .carousel-control-prev,
 .carousel-control-next {
   display: flex !important;

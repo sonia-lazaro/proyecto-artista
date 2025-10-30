@@ -4,16 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40 px;
+  gap: 20 px;
   max-width: 900px;
-  margin: 50px auto;
+  margin: 5px auto;
   padding: 20px;
   font-family: "Irish Grover", system-ui;
 }
 
 .texto-bio{
   flex: 1;
-  font-size: 1.5em;
+  font-size: 1em;
   color: $violeta-oscuro;
 }
 

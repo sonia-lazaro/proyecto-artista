@@ -74,12 +74,12 @@ header {
 presentacion.scss*/
 .presentacion {
   background-color: #735557;
+  border-radius: 12px;
   text-align: center;
-  margin-top: 120px;
   margin-bottom: 60px;
   padding: 20px;
   font-family: "Montserrat", sans-serif;
-  color: #D29F80;
+  color: white;
 }
 .presentacion h1 {
   font-family: "Irish Grover", system-ui;
@@ -98,16 +98,16 @@ presentacion.scss*/
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40 px;
+  gap: 20 px;
   max-width: 900px;
-  margin: 50px auto;
+  margin: 5px auto;
   padding: 20px;
   font-family: "Irish Grover", system-ui;
 }
 
 .texto-bio {
   flex: 1;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #604652;
 }
 
@@ -162,12 +162,6 @@ presentacion.scss*/
   transform: scale(1.05);
 }
 
-@media (max-width: 767px) {
-  .obra-card:active {
-    transform: scale(0.98);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  }
-}
 .pequeño-formato {
   max-width: 250px;
   margin: auto;
@@ -185,6 +179,12 @@ presentacion.scss*/
   color: #604652;
 }
 
+@media (max-width: 767px) {
+  .obra-card:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+}
 .carousel-control-prev,
 .carousel-control-next {
   display: flex !important;

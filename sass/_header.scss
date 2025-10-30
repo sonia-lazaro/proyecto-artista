@@ -77,12 +77,12 @@ presentacion.scss*/
 
 .presentacion {
   background-color: $violeta;
+  border-radius: 12px;
   text-align: center;
-  margin-top: 120px;
   margin-bottom: 60px;
   padding: 20px;
   font-family: $fuente-principal;
-  color: $rosa;
+  color: white;
 
   h1 {
     font-family: "Irish Grover", system-ui;
